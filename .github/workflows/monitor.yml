@@ -1,8 +1,6 @@
 name: Website element change monitor
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"   # every 5 minutes (UTC)
   workflow_dispatch: {}
 
 permissions:
